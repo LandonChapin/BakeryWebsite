@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+NZ+Basic+Guides&family=Playwrite+NZ+Basic:wght@100..400&display=swap");
 
 :root {
   --special-color: #ff9900;
@@ -23,7 +24,7 @@ p {
   line-height: 1.6; /* Sets line spacing to 1.6 times the font size */
 }
 .primary-font {
-  font-family: "Noto Serif", serif;
+  font-family: "Playwrite NZ Basic", serif;
   font-optical-sizing: auto;
   font-weight: 600;
   font-style: normal;
@@ -92,7 +93,7 @@ p {
   /* Styles the links as blocks to fill the width */
   display: block;
   padding: 5px 5px; /* Adds padding inside each menu item */
-  background-color: #bfbeb9;
+  background-color: #010b3d8f;
   color: var(--special-color);
   text-decoration: none; /* Removes default underline */
   border-radius: 4px;
@@ -118,7 +119,7 @@ p {
 }
 
 .horizontal-menu a:hover {
-  color: var(--special-color);
+  color: rgb(243, 194, 232);
 }
 
 .banner {
